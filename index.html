@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title>WAVL Tree</title>
+    <meta name="description" content="A demonstration of a WAVL tree">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+
+    <header>
+        <h1>WEAK AVL TREES</h1>
+    </header>
+    <div class="container">
+        <form id="insertForm">
+            <label for="addNum">Insert a Number: </label>
+            <input id="addNum" name="numToAdd" type="number"></input>
+            <input type="submit" id="addNumBtn"></input>
+        </form>
+
+        <div class="animation">
+            <h4 class="tree-display" id="display-div"></h4>
+            <div id="instruc-text"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
